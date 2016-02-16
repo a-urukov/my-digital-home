@@ -165,16 +165,18 @@ li
 
 .b-header__promo-text-wrap
 {
+    font-size: 14px;
     background-color: #eee;
+    line-height: 24px;
 }
 
 .b-header__promo-text
 {
-    font-size: 18px;
-    font-weight: 300;
+
+    font-weight: 400;
     font-family: Roboto, Arial, serif;
 
-    color: #000;
+    color: #555;
 }
 
 .b-search
