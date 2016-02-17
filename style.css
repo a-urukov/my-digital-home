@@ -127,6 +127,12 @@ li
     color: #fff;
 }
 
+.b-header__top
+{
+    position: relative;
+    height: 50px;
+}
+
 .b-page__central-part
 {
     margin-top: 35px;
@@ -166,17 +172,17 @@ li
 .b-header__promo-text-wrap
 {
     font-size: 14px;
-    background-color: #eee;
+    background-color: #efefef;
     line-height: 24px;
 }
 
 .b-header__promo-text
 {
 
-    font-weight: 400;
+    font-weight: 300;
     font-family: Roboto, Arial, serif;
 
-    color: #555;
+    color: #444;
 }
 
 .b-search
@@ -196,9 +202,7 @@ li
 .b-shopping-cart
 {
     margin: 5px 0;
-    padding: 15px 0 15px 14px;
-
-    border-left: 1px solid #555;
+    padding: 15px 0 0 100px;
 }
 
 .b-shopping-cart__link
@@ -223,13 +227,16 @@ li
     width: 22px;
     margin: 0 5px;
 
-    background: url('../images/sprite-jg.png');
+    background: url('./sprite-jg.png');
 }
 
 .b-phone
 {
     font-size: 27px;
-    padding: 25px 13px 0;
+
+    position: absolute;
+    top: 2px;
+    right: 0;
 }
 
 .b-main-categories
