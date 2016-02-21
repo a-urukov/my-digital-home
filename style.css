@@ -779,3 +779,34 @@ li
     background-color: #00759b;
 }
 
+.b-carousel
+{
+    margin-bottom: 20px;
+
+    font-size: 37px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 44px;
+
+}
+
+.b-carousel__title
+{
+    position: absolute;
+    top: 72px;
+    font-weight: 600;
+    font-size: 37px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.b-carousel__text
+{
+    position: absolute;
+    top: 195px;
+    font-weight: 300;
+    padding: 0 20px;
+}
+
