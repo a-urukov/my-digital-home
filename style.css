@@ -819,7 +819,7 @@ li
 
 .b-footer__category
 {
-    margin: 30px 0 0px;
+    margin: 20px 0 0px;
 }
 
 .b-footer__category-item:first-child
@@ -836,7 +836,7 @@ li
 
 .b-footer__category-menu
 {
-    margin: 0;
+    margin: 12px 0 0;
 }
 
 .b-footer__link
@@ -872,4 +872,34 @@ li
 .b-footer__phone
 {
     float: right;
+}
+
+.b-promo-text
+{
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.b-promo-text__header
+{
+    font: normal 20px Roboto, Arial, serif;
+    line-height: 25px;
+    margin: 10px 0 15px;
+}
+
+.b-promo-text__reason:before
+{
+    content: '– ';
+}
+
+.b-promo-text__reason
+{
+    margin-bottom: 10px;
+}
+
+.b-promo-text__reasons
+{
+    margin-bottom: 20px;
 }
